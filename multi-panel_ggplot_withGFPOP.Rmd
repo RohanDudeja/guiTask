@@ -24,7 +24,7 @@ for (pen in penVector)
   plot(mydata, type ='p', pch ='+', ylim = ylimits,main=title)
   par(new = TRUE)
   plot(signal, type ='l', col = 4, ylim = ylimits, lwd = 3,ylab="")
-  legend('topright', legend=c("DATA", "GFPOP"),
+  legend("topleft", legend=c("DATA", "GFPOP"),
          col=c("black", "blue"), lty=1:1, cex=0.8)
 }
 ![plot](https://user-images.githubusercontent.com/43816495/74726458-7ff29400-5265-11ea-9927-c878945c465e.png)
